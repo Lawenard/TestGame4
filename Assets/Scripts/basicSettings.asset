@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9fa91f704dd854b990fc916aee2385, type: 3}
+  m_Name: basicSettings
+  m_EditorClassIdentifier: 
+  shotPower: 20
+  charRunSpeed: 1
+  charMoveSpeed: 1.2
+  stunTime: 2
+  ballColors:
+  - {r: 1, g: 0.8457797, b: 0.3915094, a: 1}
+  - {r: 0.67296594, g: 1, b: 0.41037738, a: 1}
+  - {r: 0.4198113, g: 0.8922103, b: 1, a: 1}
+  - {r: 0.4198113, g: 0.45629194, b: 1, a: 1}
+  - {r: 0.83930594, g: 0.4009434, b: 1, a: 1}
+  - {r: 1, g: 0.2688679, b: 0.3400615, a: 1}
+  - {r: 1, g: 0.610635, b: 0.27058828, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
