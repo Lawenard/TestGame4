@@ -20,11 +20,11 @@ public class CharBehaviour : MonoBehaviour
         sinPosition = 0;
         stunned = false;
 
-        if (GameManager.Instance.useSettings)
+        if (GameManager.UseSettings)
         {
-            stunTime = GameManager.Instance.settings.stunTime;
-            moveSpeed = GameManager.Instance.settings.charMoveSpeed;
-            runSpeed = GameManager.Instance.settings.charRunSpeed;
+            stunTime = GameManager.Settings.stunTime;
+            moveSpeed = GameManager.Settings.charMoveSpeed;
+            runSpeed = GameManager.Settings.charRunSpeed;
         }
         animator.SetFloat(nameof(runSpeed), runSpeed);
     }

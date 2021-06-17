@@ -2,15 +2,14 @@
 
 public class GameManager : MonoBehaviour
 {
-    [HideInInspector]
     static public GameManager Instance { get; private set; }
-    public bool UseSettings { get => useSettings; }
+    static public bool UseSettings { get => Instance.useSettings; }
+    static public GameSettings Settings { get => Instance.settings; }
 
     [SerializeField]
-    public bool useSettings;
-
+    private bool useSettings;
     [SerializeField]
-    public GameSettings settings;
+    private GameSettings settings;
 
     private void Awake()
     {

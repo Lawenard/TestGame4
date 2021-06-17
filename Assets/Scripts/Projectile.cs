@@ -38,10 +38,10 @@ public class Projectile : MonoBehaviour
         body = GetComponent<Rigidbody>();
         ballMesh = GetComponent<MeshRenderer>();
 
-        if (GameManager.Instance.useSettings)
+        if (GameManager.UseSettings)
         {
-            power = GameManager.Instance.settings.shotPower;
-            ballColors = GameManager.Instance.settings.ballColors;
+            power = GameManager.Settings.shotPower;
+            ballColors = GameManager.Settings.ballColors;
         }
 
         colorId = -1;
